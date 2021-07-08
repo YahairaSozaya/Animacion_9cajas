@@ -1,0 +1,207 @@
+body{
+    background-color: rgb(26, 26, 68);
+    margin:0; 
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container{
+    width: 300px;
+    height: 300px;
+    display:grid;
+    grid-gap: 35px;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: repeat(3,1fr);
+}
+
+.box{
+    border:2px solid white;
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+
+
+.uno:before{
+    animation: uno 8s infinite;
+    content:"";
+    background-color: cornflowerblue;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    transform-origin: left top;
+}
+
+@keyframes uno {
+    50% {
+        transform: rotate(180deg);
+    }    
+
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+.cuatro:before{
+    animation: cuatro 8s infinite;
+    content:"";
+    background-color: cornflowerblue;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    transform-origin: center left ;
+}
+
+@keyframes cuatro {
+    50% {
+        transform: rotate(180deg);
+    }    
+
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+.siete:before{
+    animation: siete 8s infinite;
+    content:"";
+    background-color: cornflowerblue;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    transform-origin: bottom left ;
+}
+
+@keyframes siete {
+    50% {
+        transform: rotate(180deg);
+    }  
+    
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+.dos:before{
+    animation: dos 8s infinite;
+    content:"";
+    background-color: cornflowerblue;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    transform-origin: top center ;
+}
+
+@keyframes dos {
+    50% {
+        transform: rotate(180deg);
+    }
+    
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+.cinco:before{
+    animation: cinco 8s infinite;
+    content:"";
+    background-color: cornflowerblue;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    transform-origin: center center ;
+}
+
+@keyframes cinco {
+    50% {
+        transform: rotate(180deg);
+    }    
+
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+
+.ocho:before{
+    animation: ocho 8s infinite;
+    content:"";
+    background-color: cornflowerblue;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    transform-origin: bottom center ;
+}
+
+@keyframes ocho {
+    50% {
+        transform: rotate(180deg);
+    }    
+
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+.tres:before{
+    animation: tres 8s infinite;
+    content:"";
+    background-color: cornflowerblue;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    transform-origin: top right ;
+}
+
+@keyframes tres {
+    50% {
+        transform: rotate(180deg);
+    }    
+
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+.seis:before{
+    animation: seis 8s infinite;
+    content:"";
+    background-color: cornflowerblue;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    transform-origin: center right ;
+}
+
+@keyframes seis {
+    50% {
+        transform: rotate(180deg);
+    }    
+
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+.nueve:before{
+    animation: nueve 8s infinite;
+    content:"";
+    background-color: cornflowerblue;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    transform-origin: bottom right ;
+}
+
+@keyframes nueve {
+    50% {
+        transform: rotate(180deg);
+    }   
+    
+    100% {
+        transform: rotate(360deg);
+    }
+}
